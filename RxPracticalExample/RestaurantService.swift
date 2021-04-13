@@ -14,7 +14,7 @@ class RestaurantService {
         return Observable.create { observer -> Disposable in
             
             
-            guard let path = Bundle.main.path(forResource: "restaurents", ofType: "json") else {
+            guard let path = Bundle.main.path(forResource: "restaurants", ofType: "json") else {
                 observer.onError(NSError(domain: "", code: -1, userInfo: nil))
                 return Disposables.create { }
             }
