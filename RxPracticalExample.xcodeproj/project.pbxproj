@@ -23,6 +23,8 @@
 		A575488126251EB800B6E8A1 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = A575488026251EB800B6E8A1 /* restaurants.json */; };
 		A575488626251FE400B6E8A1 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575488526251FE400B6E8A1 /* Restaurant.swift */; };
 		A575488B262524DB00B6E8A1 /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575488A262524DB00B6E8A1 /* RestaurantService.swift */; };
+		A5754BCD2625F8E400B6E8A1 /* RestaurantsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5754BCC2625F8E400B6E8A1 /* RestaurantsListViewModel.swift */; };
+		A5754BD22625FA0400B6E8A1 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5754BD12625FA0400B6E8A1 /* RestaurantViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		A575488026251EB800B6E8A1 /* restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
 		A575488526251FE400B6E8A1 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		A575488A262524DB00B6E8A1 /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
+		A5754BCC2625F8E400B6E8A1 /* RestaurantsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsListViewModel.swift; sourceTree = "<group>"; };
+		A5754BD12625FA0400B6E8A1 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 				A575488026251EB800B6E8A1 /* restaurants.json */,
 				A575488526251FE400B6E8A1 /* Restaurant.swift */,
 				A575488A262524DB00B6E8A1 /* RestaurantService.swift */,
+				A5754BCC2625F8E400B6E8A1 /* RestaurantsListViewModel.swift */,
+				A5754BD12625FA0400B6E8A1 /* RestaurantViewModel.swift */,
 			);
 			path = RxPracticalExample;
 			sourceTree = "<group>";
@@ -289,10 +295,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A575488626251FE400B6E8A1 /* Restaurant.swift in Sources */,
+				A5754BD22625FA0400B6E8A1 /* RestaurantViewModel.swift in Sources */,
 				A575488B262524DB00B6E8A1 /* RestaurantService.swift in Sources */,
 				A575487326248D6800B6E8A1 /* AppCoordinator.swift in Sources */,
 				A575483326248C3700B6E8A1 /* ViewController.swift in Sources */,
 				A575482F26248C3700B6E8A1 /* AppDelegate.swift in Sources */,
+				A5754BCD2625F8E400B6E8A1 /* RestaurantsListViewModel.swift in Sources */,
 				A575483126248C3700B6E8A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
